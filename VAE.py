@@ -17,7 +17,7 @@ import time
 
 class LinEncoder(nn.Module):
     '''
-    Convolutional Encoder NN for VAE on MNIST.
+    Linear Encoder NN for VAE on MNIST.
     '''
     def __init__(self, dimension):
         super().__init__()
